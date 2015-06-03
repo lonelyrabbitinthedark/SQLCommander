@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="SQLCommander.SQL.SqlCommand">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="SQLCommander.SQL.SqlCommand.CommandType">
+        <TypeIdentifier>
+          <NewMemberFileName>SQL\SqlCommand.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AIAACACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQL\SqlCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SQLCommander.SQL.SqlConnector">
+    <Position X="3.5" Y="0.5" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="SQLCommander.SQL.SqlConnector.DbType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SQL\SqlConnector.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAIAAAAAAAAiAAAgAEIAAAAAAAAAAA=</HashCode>
+      <FileName>SQL\SqlConnector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SQLCommander.SQL.SqlWorker">
+    <Position X="6.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAASAAAAAAAAAAAAEIA=</HashCode>
+      <FileName>SQL\SqlWorker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
