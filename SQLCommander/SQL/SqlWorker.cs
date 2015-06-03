@@ -57,7 +57,7 @@ namespace SQLCommander.SQL
         /// <summary>
         ///     Determines sql command type and call needed method to proccess it
         /// </summary>
-        private void DetermineCommand()
+        private void DetermineJob()
         {
             switch (_sqlCommand.TypeOfCommand)
             {

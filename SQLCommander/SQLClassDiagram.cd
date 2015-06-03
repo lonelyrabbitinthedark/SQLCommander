@@ -37,8 +37,29 @@
   <Class Name="SQLCommander.SQL.SqlWorker">
     <Position X="6.5" Y="0.5" Width="3" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAASAAAAAAAAAAAAEIA=</HashCode>
+      <HashCode>AAAAAAAAAAQAAAAAAAAABAAAAAASAAAAAAAAAAAAEAA=</HashCode>
       <FileName>SQL\SqlWorker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SQLCommander.Data.Database">
+    <Position X="6.5" Y="3.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>IAAAACAAAAAAAAKAAAAAAAABAAAAAIAAAAAAAAAAAEA=</HashCode>
+      <FileName>Data\Database.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SQLCommander.Data.DataTable">
+    <Position X="3.5" Y="5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAIA=</HashCode>
+      <FileName>Data\DataTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SQLCommander.Data.User">
+    <Position X="0.5" Y="5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAAAAAAAAAAAAACAAAQAAAAAAAACAACAAAAAAAA=</HashCode>
+      <FileName>Data\User.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

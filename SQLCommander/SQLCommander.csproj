@@ -39,6 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\Database.cs" />
+    <Compile Include="Data\DataTable.cs" />
+    <Compile Include="Data\User.cs" />
     <Compile Include="SQL\SqlConnector.cs" />
     <Compile Include="SQL\SqlCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
