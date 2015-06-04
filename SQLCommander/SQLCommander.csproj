@@ -40,15 +40,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\Database.cs" />
-    <Compile Include="Data\DataTable.cs" />
-    <Compile Include="Data\User.cs" />
-    <Compile Include="SQL\SqlConnector.cs" />
-    <Compile Include="SQL\SqlCommand.cs" />
+    <Compile Include="Data\DatabaseType.cs" />
+    <Compile Include="Data\IDatabaseWorkingSet.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SQL\SqlWorker.cs" />
+    <Compile Include="SQLCommander.cs" />
+    <Compile Include="Data\Table.cs" />
+    <Compile Include="Data\TableColumn.cs" />
+    <Compile Include="Data\User.cs" />
+    <Compile Include="Data\UserType.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="SQLClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SQL\" />
+    <Folder Include="Utility\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,66 +1,67 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
-  <Class Name="SQLCommander.SQL.SqlCommand">
-    <Position X="0.5" Y="0.5" Width="2.75" />
-    <Compartments>
-      <Compartment Name="Nested Types" Collapsed="false" />
-    </Compartments>
-    <NestedTypes>
-      <Enum Name="SQLCommander.SQL.SqlCommand.CommandType">
-        <TypeIdentifier>
-          <NewMemberFileName>SQL\SqlCommand.cs</NewMemberFileName>
-        </TypeIdentifier>
-      </Enum>
-    </NestedTypes>
+  <Class Name="SQLCommander.Data.Database" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AIAACACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>SQL\SqlCommand.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="SQLCommander.SQL.SqlConnector">
-    <Position X="3.5" Y="0.5" Width="2.75" />
-    <Compartments>
-      <Compartment Name="Nested Types" Collapsed="false" />
-    </Compartments>
-    <NestedTypes>
-      <Enum Name="SQLCommander.SQL.SqlConnector.DbType" Collapsed="true">
-        <TypeIdentifier>
-          <NewMemberFileName>SQL\SqlConnector.cs</NewMemberFileName>
-        </TypeIdentifier>
-      </Enum>
-    </NestedTypes>
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAIAAAIAAAAAAAAiAAAgAEIAAAAAAAAAAA=</HashCode>
-      <FileName>SQL\SqlConnector.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="SQLCommander.SQL.SqlWorker">
-    <Position X="6.5" Y="0.5" Width="3" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAQAAAAAAAAABAAAAAASAAAAAAAAAAAAEAA=</HashCode>
-      <FileName>SQL\SqlWorker.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="SQLCommander.Data.Database">
-    <Position X="6.5" Y="3.25" Width="3" />
-    <TypeIdentifier>
-      <HashCode>IAAAACAAAAAAAAKAAAAAAAABAAAAAIAAAAAAAAAAAEA=</HashCode>
+      <HashCode>AAIANCAAAIACAAaAAAAAQAQAAAAAAIAAAAAAAAAAAAA=</HashCode>
       <FileName>Data\Database.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DatabaseType" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="_tables" />
+      <Field Name="_users" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.1" />
   </Class>
-  <Class Name="SQLCommander.Data.DataTable">
-    <Position X="3.5" Y="5" Width="2.75" />
+  <Class Name="SQLCommander.Data.Table" Collapsed="true">
+    <Position X="5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAIA=</HashCode>
-      <FileName>Data\DataTable.cs</FileName>
+      <HashCode>AAAAIQAAAAAAAAAAAAAAAAQAAAAAAAAAAIAAAAgAAAA=</HashCode>
+      <FileName>Data\Table.cs</FileName>
     </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_columns" />
+    </ShowAsCollectionAssociation>
   </Class>
-  <Class Name="SQLCommander.Data.User">
-    <Position X="0.5" Y="5" Width="2.75" />
+  <Class Name="SQLCommander.Data.User" Collapsed="true">
+    <Position X="2.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAQAIAAAAAAAAAAAAACAAAQAAAAAAAACAACAAAAAAAA=</HashCode>
+      <HashCode>AAAAIAAAAAAAAAQAAAAAAAQAAAAACAAAAAAAAAAAAgA=</HashCode>
       <FileName>Data\User.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="UserType" />
+    </ShowAsAssociation>
   </Class>
+  <Class Name="SQLCommander.SqlCommander" Collapsed="true">
+    <Position X="3.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAEAgAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>SQLCommander.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SQLCommander.Data.TableColumn" Collapsed="true">
+    <Position X="7.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAQAAAEAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\TableColumn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="SQLCommander.Data.DatabaseType" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAABAA=</HashCode>
+      <FileName>Data\DatabaseType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SQLCommander.Data.UserType" Collapsed="true">
+    <Position X="2.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAgAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Data\UserType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

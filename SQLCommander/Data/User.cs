@@ -1,29 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SQLCommander.Data
+﻿namespace SQLCommander.Data
 {
-    public class User
+    public class User : SqlCommander
     {
-        private readonly string _name;
-        private readonly string _password;
-        private readonly string[] _rights;
+        private string _name;
+        private UserType _type;
 
-        public User(string name, string[] rights)
+        public User(string name, UserType type)
         {
-            _name = name;
-            _password = String.Empty;
-            _rights = rights;
-        }
-
-        public User(string name, string password, string[] rights)
-        {
-            _name = name;
-            _password = password;
-            _rights = rights;
+            throw new System.NotImplementedException();
         }
 
         public string Name
@@ -31,14 +15,20 @@ namespace SQLCommander.Data
             get { return _name; }
         }
 
-        public string Password
+        public UserType TypeOfTheUser
         {
-            get { return _password; }
+            get { return _type; }
         }
 
-        public string[] Rights
+        public UserType UserType
         {
-            get { return _rights; }
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
         }
     }
 }
