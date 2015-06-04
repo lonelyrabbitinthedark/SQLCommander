@@ -39,6 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DatabaseConnection.cs" />
+    <Compile Include="DatabaseConnector.cs" />
+    <Compile Include="DatabaseProviders.cs" />
     <Compile Include="Data\Database.cs" />
     <Compile Include="Data\DatabaseType.cs" />
     <Compile Include="Data\IDatabaseWorkingSet.cs" />
